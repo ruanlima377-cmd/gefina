@@ -6,7 +6,7 @@ createServer(function (request, response) {
             200,
             { 'content-type': 'application/json' }
         );
-        response.end(JSON.stringify({ "status": "ok" }));
+        response.end(JSON.stringify({ status: 'ok' }));
         return;
     }
 
