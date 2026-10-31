@@ -1,8 +1,8 @@
 @host = http://localhost:3000
 
 ### Buscar faturas
-GET {[host]}/api/invoices
+GET {{host}}/api/invoices
 
 ### Buscar fatura pelo identificador
-GET {[host]}/api/invoices/1
+GET {{host}}/api/invoices/1
 
